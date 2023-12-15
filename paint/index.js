@@ -6,7 +6,6 @@ const ipsize = document.getElementById("psize")
 pscale = 10;
 
 function draw(e) {
-    wsctx.fillStyle = "black";
     wsctx.fillRect(e.offsetX, e.offsetY, pscale, pscale);
     console.log("DEBUG", e.offsetX, e.offsetY);
 }
